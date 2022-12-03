@@ -1,6 +1,11 @@
+# Create an empty dictionary called dog
 dictionary = {}
 print("empty dictionary", dictionary)
+#first i make a empty dictionary. then i print a "empty sictonary" and i use comma and run this.
+# then my answer empty dictionary{} in came.
 #
+
+
 dog = {
     'name':'tomy',
     'ages': 8,
@@ -8,6 +13,12 @@ dog = {
     'color':'black'
 }
 print(dog)
+# fir i make a dog name variable then i enter dictionary acording to question.
+# then i print(dog)
+
+
+
+
 
 student = {
     'first_name':'Asabeneh',
@@ -28,8 +39,8 @@ print(student)
 
 
 
-
-student =  {
+# Get the length of the student dictionary
+students =  {
     'first_name':'Asabeneh',
     'last_name':'Yetayeh',
     'age':250,
@@ -41,9 +52,8 @@ student =  {
         'street':'Space street',
         'zipcode':'02210'
     }
-    }
-print(len(student))
-
+}
+print(len(students))
 
 
 
@@ -60,6 +70,10 @@ student = {
     }
 }
 print(type(student))
+# Get the value of skills and check the data type, it should be a list
+#first i make a student name dictionary. then i print type of values .
+# then my answer is dictionary
+
 
 
 student = {
@@ -78,10 +92,10 @@ student = {
 student['skills'].append('c+')
 student['skills'].append('HTML')
 print(student)
-
-
-
-
+# Modify the skills values by adding one or two skills
+# first i make a students name dictionary then i  add two values  in skills.
+# so i did student ['skills'].append('c+' and 'HTML') then  i print this and result
+# is ['JavaScript', 'React', 'Node', 'MongoDB', 'Python','c+','HTML']
 
 student = {
     'first_name': 'Asabeneh',
@@ -98,9 +112,9 @@ student = {
 }
 keylist = list(student.keys())
 print(keylist)
-
-
-
+# Get the dictionary keys as a list
+# first i make students name dictionary then question ask students key
+# then keylist = list(studen.key) ten i print this .
 
 
 student = {
@@ -118,6 +132,27 @@ student = {
 }
 
 print(list(student.values()))
+# Get the dictionary values as a list
+
+# first i make a student name dictionary then then i entry dictionary detailsthen i print
+# list students values .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 student = {
     'first_name':'Asabeneh',
