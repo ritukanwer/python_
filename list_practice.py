@@ -7,6 +7,7 @@ names = ['ritu','seema','ranu','riya','ridhi']
 print(names)
 
 
+
 #Find the length of your list
 list = ['ritu','seema','ranu','riya','ridhi']
 print(len(list))
