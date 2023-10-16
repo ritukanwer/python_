@@ -11,10 +11,9 @@ def add_positive_numbers(input: list) -> int:
         if i > 0:
             sum += i
     return sum
-print(add_positive_numbers(input = 1))
-def pick(l: list, index: int)  ->int:
-    return l[index]
-[3, 8, 2, 7, 4, 9]
+print(add_positive_numbers(input = [3, 8, 2, 7, 4, 9] ))
+
+input = [3, 8, 2, 7, 4, 9]
 
 
 # max of 2
