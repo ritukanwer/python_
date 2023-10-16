@@ -19,7 +19,7 @@ print(area_of_circle(16))
 # 3#Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments.
 # Check if all the list items are number types. If not do give a reasonable feedback.
 #
-def add_all_nums(*nums):
+def add_all_nums(nums):
     total = 0
     for i in nums:
         total += i
@@ -119,8 +119,9 @@ def add_items(food_staff):
     for i in food_staff:
         return i
 food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
-food_staff.append('meat')
+food_staff.append('orange')
 print(food_staff)
+
 
 
 def add_items(numbers):
