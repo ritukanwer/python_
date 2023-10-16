@@ -9,7 +9,8 @@ my_function()
 
 
 # question - 172 - Functions
-# Implement a function called my_func() that creates a variable add which stores the result of adding 10 and 20, and prints out the value of add. Don't forget to also call the function!
+# Implement a function called my_func() that creates a variable add which stores the result of adding 10 and 20, and prints out
+# the value of add. Don't forget to also call the function!
 def my_function():
     add = 10 + 20
     print(add)
@@ -90,8 +91,8 @@ print(result)
 
 """
 question_177 - function
-Implement a function called my_func() that takes a single parameter x (a string) and turns each character o
-f the string to uppercase, also returning the result when the function is called.
+Implement a function called my_func() that takes a single parameter x (a string) and turns each character 
+of the string to uppercase, also returning the result when the function is called.
 """
 
 def my_function(x):
