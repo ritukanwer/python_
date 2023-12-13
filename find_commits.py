@@ -3,7 +3,7 @@
 
 import requests
 def find_commits(username):
-    access_token = "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"
+    access_token = "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"
     repository = "python_"
     url = f"https://api.github.com/repos/{username}/{repository}/commits"
     headers = {"authorozition": f"token{access_token}"}

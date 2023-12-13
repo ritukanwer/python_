@@ -5,7 +5,7 @@
 
  # # Write a program that takes a list of numbers and prints the sum of the positive numbers.
 # [-2, 5, -10, 8, 3]
-def add_positive_numbers(input: list) -> int:
+def add_positive_numbers(input: list):
     sum = 0
     for i in input:
         if i > 0:

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ritu",
+    "age": "18",
+    "len": "5",
+    "city": "jaipur",
+    "size": 4,
+    "datetime": "20-11-2023, 21:59:27.PM,Monday"
+  },
+  {
+    "name": "kuldeep",
+    "age": "20",
+    "len": "6",
+    "city": "jodhpur",
+    "size": 7,
+    "datetime": "20-11-2023, 21:59:27.PM,Monday"
+  },
+  {
+    "name": "risha",
+    "age": "21",
+    "len": "4",
+    "city": "ajmer",
+    "size": 5,
+    "datetime": "20-11-2023, 21:59:27.PM,Monday"
+  },
+  {
+    "name": "rohit",
+    "age": "20",
+    "len": "3",
+    "city": "gotan",
+    "size": 5,
+    "datetime": "20-11-2023, 21:59:27.PM,Monday"
+  },
+  {
+    "name": "divyanshee",
+    "age": "15",
+    "len": "4",
+    "city": "sumernager",
+    "size": 10,
+    "datetime": "20-11-2023, 21:59:27.PM,Monday"
+  }
+]

@@ -8,7 +8,7 @@ def find_repo_name(username):
     }
     response = requests.get(url, headers=headers)
     my_data = response.json()
-    print(my_data)
+    # print(my_data)
     repository_name = []
     for commit in my_data:
         repos_name = commit['name']

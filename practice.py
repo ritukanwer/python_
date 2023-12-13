@@ -21,7 +21,7 @@ print(sum,total)
 
 def remove_keys(dict):
    if 'a' in dict:
-       del dict['a']
+      del dict['a']
    return dict
 print(remove_keys(dict ={1:4,'a':3,5:6}))
 
@@ -77,8 +77,8 @@ list_1 = [2,3,5,8,90]
 list_2 = [5,6,7,8,80]
 list = list_1 + list_2
 print(list)
-
-
+#
+#
 # Reverse a list in Python
 list = ['ritu','naruka','rajput']
 list.reverse()
@@ -191,6 +191,7 @@ def exit_list(list,y):
         print("exit")
     else:
         print("not_exit")
+
 print(exit_list(y=50,list = [20,30,50,60]))
 
 
@@ -499,3 +500,4 @@ print(y)
 #             print(a,b)
 # print(add_key_dictionary(dictionary = {0:10,1:20},dictionary_2 = {2:30}))
 # print(iterate(d = {'Red': 1, 'Green': 2, 'Blue': 3},a = {"q":4}))
+

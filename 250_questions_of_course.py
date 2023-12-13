@@ -1044,14 +1044,12 @@ print(crypto)
 
 
 """question_93
-Given the code below, use the correct code on line 3 in order to verify that 7 is not a key in the dictionary.
-
+Given the code below, use the correct code on line 3 in order to 
+verify that 7 is not a key in the dictionary.
 """
 
 crypto = {1: "Bitcoin", 2: "Ethereum", 3: "Litecoin", 4: "Stellar", 5: "XRP"}
-
 check = 7 not in crypto
-
 print(check)
 
 
@@ -1275,7 +1273,6 @@ Considering the code below, write code that prints out True! if x is a string an
 x = "The days of Python 2 are almost over. Python 3 is the king now."
 if type(x) is str and x.startswith("T"):
     print("true")
-
 
 """
 question_113

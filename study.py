@@ -65,6 +65,8 @@ d) DELETE :- Asks the server to delete a resource.
 """
 
 # 3. Headers :- Headers provide meta-information about a request.
+"""http headers are used to pass additional information between the client and server through the request 
+and response headers"""
 
 # 4.Body :- The request body contains  data the clients want to send the server.
 
@@ -117,6 +119,9 @@ or client.Usually, authentication by a server entails the use of a user name and
 password.Other ways to authenticate can be through cards, retina scans, voice 
 recognition,and fingerprints.
 """
+
+
+# access token = pass/personl inform
 
 
 

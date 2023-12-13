@@ -6,7 +6,7 @@
 def max_of_three_number(num1,num2,num3):
     numbers = [num1,num2,num3]
     max_num = numbers[0]         #[0] is num1
-    # for i in numbers[1:]:
+    for i in numbers[1:]:
     for i in numbers:
         if i > max_num:
             max_num = i
