@@ -308,7 +308,6 @@ student_data = {'id1':
     'subject_integration': ['english, math, science']
    }
 }
-
 def count_elements(student_data):
     count = 0
     for key,value in student_data.items():
