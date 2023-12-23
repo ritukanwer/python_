@@ -27,7 +27,6 @@ input_list = [    {        "title": "The Great Gatsby",        "author": "F. Sco
 
 
 
-
 def ave_ratings(input_list):
     result = []
     for i in input_list:
