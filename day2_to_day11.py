@@ -1,5 +1,10 @@
 
+nums = [2,5,6,4,5]
+target = 6
+def sum_two_elements(nums):
+    for i in range(len(nums)):
+        for j in range(len(nums)):
+            if nums[i]+nums[j] == target:
 
-#User
-Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 
+                return[i,j]
