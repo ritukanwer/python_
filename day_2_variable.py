@@ -16,6 +16,7 @@ print(last_name)
 full_name = "ritu_naruka"
 print(full_name)
 
+
 #5 Declare a country variable and assign a value to it
 country = "india"
 print(country)
