@@ -26,7 +26,20 @@
 # custom text if my_age = your_age. Output:
 # Enter your age: 30
 # You are 5 years older than me."""
-#
+def compare_ages(my_age, your_age):
+    if my_age < your_age:
+        age_difference = your_age - my_age
+        return f"You are {age_difference} {'year' if age_difference == 1 else 'years'} older than me."
+    elif my_age > your_age:
+        age_difference = my_age - your_age
+        return f"I am {age_difference} {'year' if age_difference == 1 else 'years'} older than you."
+    else:
+        return "We are the same age."
+your_age = int(input("Enter your age: "))
+my_age = 25
+result = compare_ages(my_age, your_age)
+print(result)
+
 #
 #
 # """3
