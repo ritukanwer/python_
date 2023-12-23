@@ -208,6 +208,7 @@ print(ages)
 
 
 # (C) Find the median age (one middle item or two middle items divided by two)
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 
 # (D) Find the average age (sum of all items divided by their number )
@@ -230,8 +231,6 @@ print(age_range)
 # (F) Compare the value of (min - average) and (max - average), use abs() method
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-
-# Calculate average, minimum, and maximum
 average_age = sum(ages) / len(ages)
 min_age = min(ages)
 max_age = max(ages)
@@ -242,3 +241,52 @@ max_difference = abs(max_age - average_age)
 #
 print(min_difference)
 print(max_difference)
+
+#1 Find the middle country(ies) in the countries list
+def find_middle_country(countries):
+    total_countries = len(countries)
+
+    if total_countries % 2 != 0:
+        middle_country = countries[total_countries // 2]
+        return middle_country
+    else:
+        middle_countries = [countries[total_countries // 2 - 1], countries[total_countries // 2]]
+        return middle_countries
+
+countries_list = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+result = find_middle_country(countries_list)
+
+print(result)
+
+
+#2 Divide the countries list into two equal lists if it is even if not one more country for the first half.
+
+def divide_countries(countries):
+    total_countries = len(countries)
+
+    if total_countries % 2 == 1:
+        middle_index = total_countries // 2 + 1
+    else:
+        middle_index = total_countries // 2
+
+    first_half = countries[:middle_index]
+    second_half = countries[middle_index:]
+
+    return first_half, second_half
+countries_list = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+first_half, second_half = divide_countries(countries_list)
+
+print("First Half:", first_half)
+print("Second Half:", second_half)
+
+
+# 3['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'].
+# Unpack the first three countries and the rest as scandic countries.
+
+countries_list = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+first_country, second_country, third_country, *scandic_countries = countries_list
+
+print("First Country:", first_country)
+print("Second Country:", second_country)
+print("Third Country:", third_country)
+print("Scandic Countries:", scandic_countries)
