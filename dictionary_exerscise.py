@@ -18,7 +18,6 @@ def add_key(dict_1,dict_2):
     return x
 print(add_key(dict_1 = {0:10,1:20},dict_2 = {2:30}))
 
-
 # # 3
 # def add_key(dict_1,dict_2,dict_3):
 #     x =( dict_1,dict_2.copy())
