@@ -27,7 +27,6 @@ my_dict["C"] = 3
 print(my_dict)
 
 
-
 # question_3
 # add two dictionaries
 dict_1 = { "a":1, "b":2}
