@@ -305,11 +305,11 @@ def is_prime(n):
             return False
 
 print(is_prime(4))
-#
-#
-#
-# # 2
-# # Write a functions which checks if all items are unique in the list.
+
+
+
+# 2
+# Write a functions which checks if all items are unique in the list.
 list = ['apple','banana','orange']
 def function(list):
 
@@ -319,3 +319,16 @@ def function(list):
         print("all elements  are not unique")
 print(function(list))
 
+
+
+# 3# Write a function which checks if all the items of the list are of the same data type.
+def check_all_items_same(input_list):
+    first_item_type = type(input_list[0])
+    for item in input_list:
+        if type(item) == first_item_type:
+            return True
+        else:
+            return False
+
+my_list = [1, 2, 3, 'A']
+print(check_all_items_same(my_list))
