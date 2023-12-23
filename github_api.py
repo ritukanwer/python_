@@ -18,7 +18,3 @@ def find_repo_name(username):
 
 print(find_repo_name(username = 'ritukanwer'))
 
-
-
-
-
