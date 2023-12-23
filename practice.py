@@ -219,7 +219,6 @@ def Cloning(list_1):
 	return list_copy
 
 
-
 list_1 = [4, 8, 2, 10, 15, 18]
 list_2 = Cloning(list_1)
 print(list_1)
