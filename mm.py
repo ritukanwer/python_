@@ -15,7 +15,6 @@
 # b = 2
 #
 #
-#
 # sum = a +b
 # diff = a - b
 # multipl = a * b
