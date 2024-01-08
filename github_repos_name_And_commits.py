@@ -28,7 +28,6 @@ def find_commits(username):
         }
     total_commit = 0
     commit_list = []
-
     per_page = 200
     for page in range(1,5):
         response = requests.get(url, headers=headers,params = {"page":page,"per_page":per_page})
@@ -36,17 +35,12 @@ def find_commits(username):
         if len(my_data) > 0:
             total_commit += len(my_data)
     # print(my_data)
-
             for commits in my_data:
                 commits_dict = {"sha":commits['sha'],
                                 "name":commits['commit']['author']['name'],
                                 "commited_files":commits['commit']['message']}
                 commit_list.append(commits_dict)
-
     return commit_list
-
-
-
 a=find_commits(username="ritukanwer")
 print(a)
 print(len(a))
