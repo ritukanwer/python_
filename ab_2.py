@@ -118,14 +118,8 @@ def remove_elements(my_list):
 
 print(remove_elements(my_list))
 
-# 12 Write a Python program to generate a 3*4*6 3D array whose each element is *.
-three_d_array = [[[ '*' for _ in range(6)] for _ in range(4)] for _ in range(3)]
 
-# 3D एरे को प्रिंट करें
-for i in range(3):
-    for j in range(4):
-        for k in range(6):
-            print(three_d_array[i][j][k], end=' ')
-        print()
-    print()
+
+
+
 
